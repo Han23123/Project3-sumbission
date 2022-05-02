@@ -1,0 +1,140 @@
+
+
+body{
+    background-color: #e7e7e7;
+}
+
+.frame{
+    margin: 30px 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*navigator*/
+
+.navigator{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+li{
+    display: inline;
+    align-self: center;
+    margin:0;
+    margin-left: 15px;
+}
+
+ul{
+    margin:0;
+}
+
+.site-name{
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #2928287f;
+}
+
+.nav-menu{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    transition: 0.3s;
+}
+
+
+/*dashboard*/
+
+
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.english-comment1{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.english-comment2{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+}
+.sample:hover{
+    background-color: transparent;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    transition: none;
+}
+
+.highlight{
+    color: rgb(16, 16, 16);
+   
+}
+
+.highlight:hover{
+    background-color: rgb(252, 55, 0);
+    color: black;
+    transition: none;
+}
+
+.english-comment{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    font-style: italic;
+
+    letter-spacing: -0.3px;
+}
+
+/*recent works*/
+
+.recent-menu{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #494949;
+    
+    text-align: left;
+    margin-top: 15px;
+}
+.Text1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 115px;
+}
+.Work-section1{
+        text-align: center;
+        vertical-align: middle ;
+        overflow: auto;}
+    .Work-section1 img{float: left;
+    }
+
+.Work-section2{
+    text-align: center;
+    vertical-align: middle ;
+    overflow: auto;}
+.Work-section2 img{float: right;
+}
+.Work-section3{
+    text-align: center;
+    vertical-align: middle ;
+    overflow: auto;}
+.Work-section3 img{float: left;
+}
